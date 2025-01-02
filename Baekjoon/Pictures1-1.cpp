@@ -16,6 +16,7 @@ pair<int, int> direction[4] = { {-1, 0}, {0, -1}, {0 , +1}, {+1, 0} };
 
 int dfs(int row, int col) {
 	s.push({ row, col });
+	picture[row][col] = 0;
 
 	int size = 1;
 	int dirRow, dirCol;
@@ -34,7 +35,7 @@ int dfs(int row, int col) {
 				picture[dirRow][dirCol] == 1 ) {
 
 				s.push({ dirRow, dirCol });
-				picture[dirRow][dirCol] = 1;
+				picture[dirRow][dirCol] = 0;
 
 				size++;
 			}
@@ -70,7 +71,6 @@ int main() {
 
 				numOfPictures++;
 			}
-			picture[i][j] = 1;
 		}
 	}
 

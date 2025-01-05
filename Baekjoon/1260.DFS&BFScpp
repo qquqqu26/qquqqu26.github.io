@@ -12,11 +12,11 @@ bool visitedDFS[maxVertexSize] = { false };
 vector <int> list[maxVertexSize];
 
 void dfs(int startVertex) {
-	//¹æ¹® Ã³¸®
+	//ë°©ë¬¸ ì²˜ë¦¬
 	cout << startVertex << " ";
 	visitedDFS[startVertex] = true;
 
-	//ÀÎÁ¢ ¸®½ºÆ®¿¡¼­ °¡Àå ÀÛÀº&&¹æ¹®ÇÑÀû ¾ø´Â Á¤Á¡ Å½»ö
+	//ì¸ì ‘ ë¦¬ìŠ¤íŠ¸ì—ì„œ ê°€ìž¥ ìž‘ì€&&ë°©ë¬¸í•œì  ì—†ëŠ” ì •ì  íƒìƒ‰
 	for (int i = 0; i < list[startVertex].size(); i++) {
 		int next = list[startVertex][i];
 
@@ -54,7 +54,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL); cout.tie(NULL);
 
-	//ÀÔ·Â
+	//ìž…ë ¥
 	cin >> vertex >> edge >> start;
 	int vertex1, vertex2 = 0;
 	for (int curEdge = 0; curEdge < edge; curEdge++) {
@@ -65,7 +65,7 @@ int main() {
 		list[vertex2].push_back( vertex1 );
 	}
 
-	//Á¤Á¡¿¡ ´ëÇÑ ¿ä¼Òµé ¿À¸§Â÷¼ø Á¤·Ä
+	//ì •ì ì— ëŒ€í•œ ìš”ì†Œë“¤ ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 	for (int i = 1; i < vertex+1; i++) {
 		sort(list[i].begin(), list[i].end());
 	}

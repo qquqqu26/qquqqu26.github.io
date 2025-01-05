@@ -1,6 +1,6 @@
 //Baekjoon 1926. Pictures
 //1-1. Dfs, Stack
-//1-2. RecursionÀ¸·Î Ç® ¼ö ÀÖÀ½
+//1-2. Recursionìœ¼ë¡œ í’€ ìˆ˜ ìˆìŒ
 #include <iostream>
 #include <stack>
 #include <algorithm>
@@ -59,11 +59,11 @@ int main() {
 
 	int before, after = 0;
 
-	//Å½»ö
+	//íƒìƒ‰
 	for (int i = 0; i < sizeRow; i++) {
 		for (int j = 0; j < sizeCol; j++) {
 
-			//±×¸² ½ÃÀÛÁ¡ Á¶°Ç
+			//ê·¸ë¦¼ ì‹œì‘ì  ì¡°ê±´
 			if (picture[i][j] == 1) {
 				before = maxSize;
 				after = dfs(i, j);

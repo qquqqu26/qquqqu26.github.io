@@ -1,0 +1,15 @@
+D:\qquqqu26.github.io\BasicC#\BasicC#\bin\Debug\net7.0\BasicC#.exe
+D:\qquqqu26.github.io\BasicC#\BasicC#\bin\Debug\net7.0\BasicC#.deps.json
+D:\qquqqu26.github.io\BasicC#\BasicC#\bin\Debug\net7.0\BasicC#.runtimeconfig.json
+D:\qquqqu26.github.io\BasicC#\BasicC#\bin\Debug\net7.0\BasicC#.dll
+D:\qquqqu26.github.io\BasicC#\BasicC#\bin\Debug\net7.0\BasicC#.pdb
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.csproj.AssemblyReference.cache
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.AssemblyInfoInputs.cache
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.AssemblyInfo.cs
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.csproj.CoreCompileInputs.cache
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.dll
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\refint\BasicC#.dll
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.pdb
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\BasicC#.genruntimeconfig.cache
+D:\qquqqu26.github.io\BasicC#\BasicC#\obj\Debug\net7.0\ref\BasicC#.dll
